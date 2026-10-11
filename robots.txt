@@ -2,3 +2,5 @@ User-agent: *
 Allow: /
 
 Sitemap: https://indiumvault.github.io/Indiumvalut-website/sitemap.xml
+
+# Public static pages are crawlable. Do not add private credentials or tokens to this repository.
