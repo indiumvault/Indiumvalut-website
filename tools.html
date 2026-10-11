@@ -48,7 +48,25 @@ pre,code{overflow-wrap:anywhere}
 }
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
 
-.site-links{display:flex;align-items:center;gap:16px;flex-wrap:wrap}.site-links a{padding:8px 0}@media(max-width:600px){.nav{height:auto;min-height:60px;padding:10px 0;align-items:flex-start;flex-direction:column;gap:6px}.site-links{gap:14px;font-size:.86rem}.site-links a{padding:5px 0}}\n</style>
+.site-links{display:flex;align-items:center;gap:16px;flex-wrap:wrap}.site-links a{padding:8px 0}@media(max-width:600px){.nav{height:auto;min-height:60px;padding:10px 0;align-items:flex-start;flex-direction:column;gap:6px}.site-links{gap:14px;font-size:.86rem}.site-links a{padding:5px 0}}\n
+/* Final visual polish: clearer hierarchy, consistent controls, and calm interaction states. */
+:root{--focus-ring:0 0 0 3px #c8ff4d30}
+.tool{background:linear-gradient(155deg,#141914 0%,#101310 75%);border-color:#2d352c;border-radius:12px}
+.tool .kicker{font-size:.69rem;letter-spacing:.12em;text-transform:uppercase;color:#c8ff4d}
+.tool h2{letter-spacing:-.045em;line-height:1.2}
+.tool .desc{max-width:52ch;color:#a6afa2}
+.tool input:not([type=checkbox]):not([type=range]),.tool textarea,.tool select{border-radius:7px;border-color:#333d31;background:#0b0e0b}
+.tool input:focus-visible,.tool textarea:focus-visible,.tool select:focus-visible,.tool button:focus-visible,.filter-chip:focus-visible{outline:2px solid var(--lime);outline-offset:2px;box-shadow:var(--focus-ring)}
+.tool button{border-radius:7px;transition:background .18s ease,border-color .18s ease,transform .18s ease}
+.tool button:not(.primary):hover{border-color:#64764d;background:#1b2119}
+.tool button.primary:hover{background:#ddff9c}
+.tool .hint{line-height:1.55}
+.toolbar .search{border-radius:8px}
+.stat{line-height:1.5}
+@media(max-width:600px){.tool{border-radius:10px}.tool .row{align-items:stretch}.tool .row>*{min-width:0}.tool button{min-height:44px}.toolbar .search{width:100%}}
+@media(prefers-reduced-motion:reduce){.tool,.tool button{transition:none!important}}
+
+</style>
 </head>
 <body>
 <div class="topline"></div><header><div class="wrap nav"><a class="brand" href="./" aria-label="IndiumVault home"><span class="mark">IV.</span><span>IndiumVault <span style="color:#9aa39a;font-weight:500">/ Labs</span></span></a><nav class="site-links" aria-label="Main navigation"><a href="guides.html">Guides ↗</a><a href="#feedback">Feedback ↗</a><a href="./">← Home</a></nav></div></header>
