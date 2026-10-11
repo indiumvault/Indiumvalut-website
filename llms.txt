@@ -2,20 +2,20 @@
 
 > Free browser-based utilities, practical how-to guides, and a student/creator progress workspace.
 
-Canonical site: https://indiumvault.github.io/Indiumvalut-website/
+Canonical site: https://indiumvault.github.io/Indiumvault-website/
 Repository: https://github.com/indiumvault/Indiumvalut-website
 
 ## Main sections
-- [Home](https://indiumvault.github.io/Indiumvalut-website/)
-- [About IndiumVault](https://indiumvault.github.io/Indiumvalut-website/about.html)
-- [Free browser tools](https://indiumvault.github.io/Indiumvalut-website/tools.html): writing helpers, text conversion, JSON formatting, password/UUID generation, conversions, and calculations.
-- [Launchpad](https://indiumvault.github.io/Indiumvalut-website/launchpad.html): tasks, focus timer, weekly checkpoints, revision planner, weekly timetable.
-- [How-to guides](https://indiumvault.github.io/Indiumvalut-website/guides.html)
-- [Revision planning guide](https://indiumvault.github.io/Indiumvalut-website/revision-planning-guide.html)
-- [JSON debugging guide](https://indiumvault.github.io/Indiumvalut-website/json-debugging-guide.html)
-- [Feedback and ideas](https://indiumvault.github.io/Indiumvalut-website/feedback.html)
-- [Privacy policy](https://indiumvault.github.io/Indiumvalut-website/privacy.html)
-- [Terms of use](https://indiumvault.github.io/Indiumvalut-website/terms.html)
+- [Home](https://indiumvault.github.io/Indiumvault-website/)
+- [About IndiumVault](https://indiumvault.github.io/Indiumvault-website/about.html)
+- [Free browser tools](https://indiumvault.github.io/Indiumvault-website/tools.html): writing helpers, text conversion, JSON formatting, password/UUID generation, conversions, and calculations.
+- [Launchpad](https://indiumvault.github.io/Indiumvault-website/launchpad.html): tasks, focus timer, weekly checkpoints, revision planner, weekly timetable.
+- [How-to guides](https://indiumvault.github.io/Indiumvault-website/guides.html)
+- [Revision planning guide](https://indiumvault.github.io/Indiumvault-website/revision-planning-guide.html)
+- [JSON debugging guide](https://indiumvault.github.io/Indiumvault-website/json-debugging-guide.html)
+- [Feedback and ideas](https://indiumvault.github.io/Indiumvault-website/feedback.html)
+- [Privacy policy](https://indiumvault.github.io/Indiumvault-website/privacy.html)
+- [Terms of use](https://indiumvault.github.io/Indiumvault-website/terms.html)
 
 ## Important notes
 - The website is a static site hosted on GitHub Pages; the current tools do not require an account.
