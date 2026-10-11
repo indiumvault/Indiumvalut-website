@@ -36,6 +36,33 @@
 @media(max-width:900px){.wrap{width:min(var(--max),calc(100% - 42px))}.hero{grid-template-columns:1fr;gap:45px;padding:78px 0 72px;min-height:0}.hero-copy{max-width:720px}.hero-art{min-height:390px}.art-glow{left:30%}.section{padding:78px 0}.section-head{grid-template-columns:1fr;gap:20px}.about-grid{grid-template-columns:1fr}.about-item{border-right:0;border-bottom:1px solid var(--line)}.about-item:last-child{border-bottom:0}.about-item h3{margin-top:14px}.cap-grid{grid-template-columns:1fr}.cap{min-height:0}.cap h3{margin-top:20px}.work-card{grid-template-columns:1fr}.work-visual{min-height:260px}.contact-panel{align-items:flex-start;flex-direction:column}.ticker-inner{flex-wrap:wrap;justify-content:flex-start;gap:10px 20px}}
 @media(max-width:600px){.wrap{width:calc(100% - 36px)}.nav{height:66px}.menu-toggle{display:inline-flex;align-items:center;gap:8px}.nav-links{display:none;position:absolute;top:66px;left:0;right:0;padding:18px;background:#0b0d0c;border-bottom:1px solid var(--line);align-items:stretch;gap:0;flex-direction:column}.nav-links.open{display:flex}.nav-links a{padding:12px 4px}.nav-links .nav-cta{justify-content:center;margin-top:8px;padding:12px}.hero{padding:61px 0 55px;gap:30px}h1{font-size:clamp(3.75rem,17vw,5.7rem);margin:23px 0}.hero-copy>p{font-size:.98rem}.actions{gap:9px}.btn{font-size:.81rem;padding:11px 13px}.hero-art{min-height:310px}.art-glow{width:220px;height:220px;left:17%;top:14%}.orbit{width:270px;height:100px}.orbit.two{width:290px;height:130px}.art-panel{width:165px;right:12px;bottom:43px;padding:13px}.art-label.top,.art-label.right{top:13px}.art-label.top,.art-label.bottom{left:13px}.art-label.right{right:13px}.art-label.bottom{bottom:13px}.ticker-inner{font-size:.67rem;gap:8px 13px;padding:16px 0}.section{padding:66px 0}.section h2{font-size:clamp(2.65rem,12vw,3.8rem)}.section-head{margin-bottom:29px}.cap{padding:22px}.work-visual{min-height:225px}.work-copy{padding:25px}.contact-panel{padding:28px 23px}.contact-panel h2{font-size:clamp(2.8rem,12vw,4rem)}.footer-inner{align-items:flex-start;flex-direction:column;gap:13px}.footer-links{gap:18px}}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;scroll-behavior:auto!important;transition:none!important}.reveal{opacity:1;transform:none}}
+
+/* Mobile usability pass: comfortable touch targets and no accidental horizontal overflow. */
+html{max-width:100%;overflow-x:clip}
+body{min-width:0;overflow-wrap:anywhere}
+img,svg,video,canvas,iframe{max-width:100%}
+input,textarea,select,button{max-width:100%;font:inherit}
+button,a,.btn,.filter-chip,.chip{touch-action:manipulation}
+button,.btn{min-height:44px}
+textarea{width:100%;min-width:0;resize:vertical}
+pre,code{overflow-wrap:anywhere}
+:target{scroll-margin-top:82px}
+@media(max-width:600px){
+  .wrap{width:calc(100% - 28px)}
+  main{min-width:0}
+  .actions,.row,.toolbar,.filter-row{max-width:100%;flex-wrap:wrap}
+  .actions .btn,.row button{min-width:0}
+  .tool textarea{min-height:108px;font-size:16px}
+  .tool input,.tool select,.tool textarea{font-size:16px}
+  .related,.guide-grid,.cap-grid,.about-grid{grid-template-columns:minmax(0,1fr)}
+  .related>*{min-width:0}
+  .section,.hero{min-width:0}
+  .code{max-width:100%;overflow-x:auto;overflow-wrap:normal}
+  .footer-links,.foot,.footer-inner{flex-wrap:wrap;gap:12px}
+  .nav a,.footer-links a{padding-top:8px;padding-bottom:8px}
+}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
+
 </style>
 </head>
 <body>
