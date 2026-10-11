@@ -58,20 +58,41 @@ No analytics vendor or tracking script is enabled by this phase.
 ### Stage D — Build a product users ask for
 Use repeated feedback and real usage to decide whether to create a paid pro feature or a separate product. Validate demand before building a backend or paying for infrastructure.
 
-## 5. Monthly scorecard
+## 5. A realistic 90-day plan
+### Days 1–30: quality before revenue
+- Keep the site free and fast; test every tool on a phone and fix reported bugs.
+- Publish two or three genuinely useful guides tied to real tool use cases, not thin keyword pages.
+- In Search Console, monitor sitemap status, indexed pages, impressions, clicks, and actual search queries.
+- Goal: a stable site, no known critical bugs, and a baseline of search data. Revenue target: ₹0 is acceptable.
+
+### Days 31–60: learn what people need
+- Improve the two tools and pages that Search Console and feedback show are most useful.
+- Add clear examples and accessible labels; make feedback easy without collecting sensitive information.
+- Ask for voluntary feedback and links from relevant communities only where sharing is welcome. Never spam or buy fake traffic.
+- Goal: identify a small group of useful search queries and the next improvement. Revenue remains optional, not expected.
+
+### Days 61–90: test one low-risk revenue path
+- First validate demand. If real visitors repeatedly ask for a related service, test an optional, clearly disclosed support/donation route or a small relevant affiliate recommendation.
+- Keep core tools free, never make tool results depend on payment, and never add deceptive buttons, forced redirects, or fake urgency.
+- Do not apply for advertising just because the site exists. Check current eligibility, traffic/quality requirements, privacy terms, and account/payment rules first.
+- As the site owner is under 18, do not falsify age or bypass platform rules. Some ad, affiliate, donation, and payment accounts require an adult account holder; involve a parent/guardian where required and follow the provider's rules.
+- Goal: evidence of what visitors value and whether they voluntarily support it. No specific revenue is promised; zero revenue during the first 90 days is realistic.
+
+## 6. Monthly scorecard
 Track these in a simple note or spreadsheet:
 - Search impressions and clicks
-- Pages that are indexed
+- Pages that are indexed and sitemap status
 - Queries bringing visitors to the site
 - Tool pages with the most useful engagement (only if privacy-conscious analytics is later enabled)
 - Bugs fixed and user-requested improvements
-- Costs incurred (target: $0 while validating)
+- Any voluntary support or affiliate clicks, only if tracked transparently and lawfully
+- Costs incurred (target: ₹0 while validating)
 
-Do not judge success by one day's traffic. Review trends monthly and make one or two focused improvements at a time.
+Do not judge success by one day's traffic. Review trends monthly and make one or two focused improvements at a time. Traffic and revenue may remain low; use evidence rather than guesses to choose the next step.
 
 ## Definition of done for Phase 6
 - Sitemap and robots file are valid and current.
 - Main pages have unique metadata and sensible internal links.
-- Search Console is ready for manual owner verification and sitemap submission.
-- No tracking script was added without consent and provider setup.
-- A staged, realistic monetization plan is documented.
+- Search Console is used to inspect indexing and performance.
+- No tracking script was added without provider setup and an updated privacy notice.
+- A staged, realistic monetization plan is documented with no guaranteed-income claims.
