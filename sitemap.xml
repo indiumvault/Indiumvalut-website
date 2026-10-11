@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://indiumvault.github.io/Indiumvalut-website/</loc></url>
+  <url><loc>https://indiumvault.github.io/Indiumvalut-website/about.html</loc></url>
   <url><loc>https://indiumvault.github.io/Indiumvalut-website/tools.html</loc></url>
   <url><loc>https://indiumvault.github.io/Indiumvalut-website/launchpad.html</loc></url>
   <url><loc>https://indiumvault.github.io/Indiumvalut-website/guides.html</loc></url>
+  <url><loc>https://indiumvault.github.io/Indiumvalut-website/feedback.html</loc></url>
   <url><loc>https://indiumvault.github.io/Indiumvalut-website/word-counter.html</loc></url>
   <url><loc>https://indiumvault.github.io/Indiumvalut-website/text-case-converter.html</loc></url>
   <url><loc>https://indiumvault.github.io/Indiumvalut-website/json-formatter.html</loc></url>
   <url><loc>https://indiumvault.github.io/Indiumvalut-website/password-generator.html</loc></url>
   <url><loc>https://indiumvault.github.io/Indiumvalut-website/uuid-generator.html</loc></url>
   <url><loc>https://indiumvault.github.io/Indiumvalut-website/unit-converter.html</loc></url>
-  <url><loc>https://indiumvault.github.io/Indiumvalut-website/privacy.html</loc></url>
-  <url><loc>https://indiumvault.github.io/Indiumvalut-website/terms.html</loc></url>
   <url><loc>https://indiumvault.github.io/Indiumvalut-website/json-debugging-guide.html</loc></url>
   <url><loc>https://indiumvault.github.io/Indiumvalut-website/revision-planning-guide.html</loc></url>
+  <url><loc>https://indiumvault.github.io/Indiumvalut-website/privacy.html</loc></url>
+  <url><loc>https://indiumvault.github.io/Indiumvalut-website/terms.html</loc></url>
 </urlset>
