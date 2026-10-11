@@ -2,7 +2,7 @@
 
 A free, mobile-friendly collection of browser-based utilities, practical guides, and a student/creator workspace.
 
-**Live site:** https://indiumvault.github.io/Indiumvalut-website/
+**Live site:** https://indiumvault.github.io/Indiumvault-website/
 
 ## What is included
 - **Labs:** word counter, text case converter, JSON formatter/validator, password generator, UUID generator, unit converter, percentage calculator, and text cleaner.
