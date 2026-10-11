@@ -47,10 +47,10 @@ pre,code{overflow-wrap:anywhere}
 }
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
 
-</style>
+.site-links{display:flex;gap:14px;align-items:center;flex-wrap:wrap}.site-links a{padding:8px 0;color:var(--lime)}@media(max-width:600px){.nav{height:auto;min-height:60px;padding:10px 0;align-items:flex-start;flex-direction:column;gap:6px}.site-links{gap:14px;font-size:.86rem}}\n</style>
 </head>
 <body>
-<header><div class="wrap nav"><a class="brand" href="./"><span class="mark">IV.</span>IndiumVault <span style="color:var(--muted);font-weight:500">/ Labs</span></a><a href="guides.html">All guides ↗</a></div></header>
+<header><div class="wrap nav"><a class="brand" href="./"><span class="mark">IV.</span>IndiumVault <span style="color:var(--muted);font-weight:500">/ Labs</span></a><nav class="site-links" aria-label="Main navigation"><a href="tools.html">Tools ↗</a><a href="guides.html">Guides ↗</a><a href="./">Home ↗</a></nav></div></header>
 <main class="wrap">
 <section class="hero"><div class="tag">IndiumVault Labs / Practical guide</div><h1>How to fix common JSON errors</h1><p>JSON is a text format for representing structured data. A tiny punctuation mistake can make an otherwise sensible object invalid. Use these examples to find the usual problems, then validate your own sample.</p><div class="actions"><a class="btn primary" href="tools.html#json-formatter">Open the free JSON formatter ↗</a><a class="btn" href="json-formatter.html">Read the tool guide</a></div></section>
 <section class="section"><h2>1. Put double quotes around keys and strings</h2><p>JSON requires double quotes around object keys and text values. Single quotes and unquoted keys are common mistakes.</p><div class="panel bad"><strong>Invalid JSON</strong><code class="code">{ name: 'Mira', active: true }</code></div><div class="panel good"><strong>Valid JSON</strong><code class="code">{
