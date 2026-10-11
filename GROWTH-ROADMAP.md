@@ -6,12 +6,12 @@ Updated: 11 October 2026
 - Hosting: GitHub Pages, free static hosting.
 - No server, database, or paid hosting budget.
 - The primary purpose is study, useful digital skills, self-improvement, and practical projects; general utilities are secondary.
-- Keep the Launchpad mobile-friendly. Planner data is stored in local browser storage and is not sent to a server.
+- Keep the Launchpad mobile-friendly. Tasks, revision targets, timetable entries, and weekly checkpoints are stored in local browser storage and are not sent to a server.
 - Do not add tracking scripts, cookies, or third-party data collection without a deliberate decision and an updated privacy notice.
 - Search engines and revenue are not guaranteed; focus on utility, accuracy, and real users.
 
 ## 1. Product direction
-- Make Launchpad the main practical destination: task planning, focus timer, weekly checkpoints, and beginner-friendly skill-to-project roadmaps.
+- Make Launchpad the main practical destination: daily task planning, focus timer, revision targets by subject/topic/date, an editable weekly timetable, weekly checkpoints, and beginner-friendly skill-to-project roadmaps.
 - Keep claims honest. No website or skill guarantees income; prioritize learning, real projects, and useful outcomes.
 - Treat general utilities as optional extras, not the main reason to visit. Improve or remove them based on genuine feedback.
 
@@ -46,7 +46,7 @@ No analytics vendor or tracking script is enabled by this phase.
 
 ## 5. Realistic monetization roadmap
 ### Stage A — Prove usefulness
-- Test the Launchpad planner and focus timer on mobile; fix issues before promoting it.
+- Test the Launchpad planner, focus timer, revision planner, and weekly timetable on mobile; fix issues before promoting them.
 - Improve only utilities that have a clear use case and work reliably.
 - Publish helpful, original how-to content that answers specific user questions.
 - Gather feedback without asking users to reveal sensitive data.
@@ -102,5 +102,5 @@ Do not judge success by one day's traffic. Review trends monthly and make one or
 - Main pages have unique metadata and sensible internal links.
 - Search Console is used to inspect indexing and performance.
 - No tracking script was added without provider setup and an updated privacy notice.
-- The Launchpad has a clear purpose and working task, timer, and weekly checkpoint interactions.
+- The Launchpad has a clear purpose and task, timer, weekly checkpoint, revision planner, and timetable interactions; static checks pass, and real-device behavior still needs manual testing.
 - A staged, realistic monetization plan is documented with no guaranteed-income claims.
