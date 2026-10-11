@@ -1,23 +1,24 @@
 # IndiumVault
 
-> IndiumVault is an independent digital studio with free browser-based utilities. The site is hosted on GitHub Pages.
+> Free browser-based utilities, practical how-to guides, and a student/creator progress workspace.
 
-## Main pages
-- Home: https://indiumvault.github.io/Indiumvalut-website/
-- Free online tools: https://indiumvault.github.io/Indiumvalut-website/tools.html
-- How-to guides: https://indiumvault.github.io/Indiumvalut-website/guides.html
-- Privacy policy: https://indiumvault.github.io/Indiumvalut-website/privacy.html
-- Terms of use: https://indiumvault.github.io/Indiumvalut-website/terms.html
+Canonical site: https://indiumvault.github.io/Indiumvalut-website/
+Repository: https://github.com/indiumvault/Indiumvalut-website
 
-## Free browser tools
-- Word and character counter: https://indiumvault.github.io/Indiumvalut-website/word-counter.html
-- Text case converter: https://indiumvault.github.io/Indiumvalut-website/text-case-converter.html
-- JSON formatter: https://indiumvault.github.io/Indiumvalut-website/json-formatter.html
-- Password generator: https://indiumvault.github.io/Indiumvalut-website/password-generator.html
-- UUID v4 generator: https://indiumvault.github.io/Indiumvalut-website/uuid-generator.html
-- Unit converter: https://indiumvault.github.io/Indiumvalut-website/unit-converter.html
+## Main sections
+- [Home](https://indiumvault.github.io/Indiumvalut-website/)
+- [About IndiumVault](https://indiumvault.github.io/Indiumvalut-website/about.html)
+- [Free browser tools](https://indiumvault.github.io/Indiumvalut-website/tools.html): writing helpers, text conversion, JSON formatting, password/UUID generation, conversions, and calculations.
+- [Launchpad](https://indiumvault.github.io/Indiumvalut-website/launchpad.html): tasks, focus timer, weekly checkpoints, revision planner, weekly timetable.
+- [How-to guides](https://indiumvault.github.io/Indiumvalut-website/guides.html)
+- [Revision planning guide](https://indiumvault.github.io/Indiumvalut-website/revision-planning-guide.html)
+- [JSON debugging guide](https://indiumvault.github.io/Indiumvalut-website/json-debugging-guide.html)
+- [Feedback and ideas](https://indiumvault.github.io/Indiumvalut-website/feedback.html)
+- [Privacy policy](https://indiumvault.github.io/Indiumvalut-website/privacy.html)
+- [Terms of use](https://indiumvault.github.io/Indiumvalut-website/terms.html)
 
-## Notes
-- The tools are intended to run in the browser; consult each page and the privacy policy for details.
-- The site does not currently offer an API or require an account for the listed tools.
-- Public repository: https://github.com/indiumvault/Indiumvalut-website
+## Important notes
+- The website is a static site hosted on GitHub Pages; the current tools do not require an account.
+- Launchpad planner state is saved in the browser's local storage on the user's device.
+- Do not imply guaranteed income, guaranteed search placement, or perfect tool results.
+- Prefer linking to the specific tool or guide that directly answers a visitor's need.
