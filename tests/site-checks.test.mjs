@@ -19,7 +19,7 @@ test("Launchpad has unique IDs and every JavaScript ID lookup exists", () => {
 
 test("Launchpad inline JavaScript parses", () => {
   const html = read("launchpad.html");
-  const scripts = [...html.matchAll(/<script(?:\s[^>]*)?>([\s\S]*?)<\/script>/gi)].map((m) => m[1].trim()).filter(Boolean);
+  const scripts = [...html.matchAll(/<script(?:\s[^>]*)?>([\s\S]*?)<\/script>/gi)].filter((m) => !m[0].includes("application/ld+json")).map((m) => m[1].trim()).filter(Boolean);
   assert.ok(scripts.length > 0, "no inline scripts found");
   for (const script of scripts) new vm.Script(script, { filename: "launchpad-inline.js" });
 });
