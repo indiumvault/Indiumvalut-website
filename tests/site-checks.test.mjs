@@ -79,3 +79,26 @@ test("Public pages have SEO metadata and About page is connected", () => {
   assert.ok(read("sitemap.xml").includes("about.html"), "sitemap should include About");
   assert.match(read("privacy.html"), /weekly timetable/i, "privacy policy should explain planner storage");
 });
+
+test("Creator Studio and IndiumVault OS inline JavaScript parses", () => {
+  for (const file of ["creator-studio.html", "vault-os.html"]) {
+    const html = read(file);
+    const scripts = [...html.matchAll(/<script(?:\\s[^>]*)?>([\\s\\S]*?)<\\/script>/gi)].map((m) => m[1].trim()).filter(Boolean);
+    assert.ok(scripts.length > 0, file + " needs inline JavaScript");
+    for (const script of scripts) new vm.Script(script, { filename: file + "-inline.js" });
+  }
+});
+
+test("New product pages have unique IDs and local data controls", () => {
+  for (const file of ["creator-studio.html", "vault-os.html"]) {
+    const html = read(file);
+    const ids = [...html.matchAll(/\\bid="([^"]+)"/g)].map((m) => m[1]);
+    assert.equal(new Set(ids).size, ids.length, file + " contains duplicate IDs");
+  }
+  const os = read("vault-os.html");
+  for (const marker of ['id="taskForm"', 'id="projectForm"', 'id="noteForm"', 'id="goalForm"', 'id="exportData"', 'id="importData"', 'localStorage.setItem(KEY']) {
+    assert.ok(os.includes(marker), "IndiumVault OS missing expected feature: " + marker);
+  }
+  const studio = read("creator-studio.html");
+  for (const marker of ['id="generate"', 'id="export"', 'id="save"', 'id="load"']) assert.ok(studio.includes(marker), "Creator Studio missing expected feature: " + marker);
+});
