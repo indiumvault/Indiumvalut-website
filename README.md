@@ -21,3 +21,7 @@ Most utilities run in the browser. Launchpad uses local storage, so saved planne
 
 ## Contributing ideas
 Use the [feedback page](feedback.html) to prepare a feature request or bug report, or open the [GitHub repository](https://github.com/indiumvault/Indiumvalut-website).
+
+## Creator Studio
+
+A free, browser-based workspace for planning short-form videos. It drafts hooks, a script structure, title ideas, a description, and starter hashtags from a brief; estimates script read time; and lets visitors copy sections, save a draft locally, or export a text content pack. It uses templates rather than an AI service, requires no account, and keeps drafts in the visitor's browser unless they export them.
