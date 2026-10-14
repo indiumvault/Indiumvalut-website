@@ -25,3 +25,8 @@ Use the [feedback page](feedback.html) to prepare a feature request or bug repor
 ## Creator Studio
 
 A free, browser-based workspace for planning short-form videos. It drafts hooks, a script structure, title ideas, a description, and starter hashtags from a brief; estimates script read time; and lets visitors copy sections, save a draft locally, or export a text content pack. It uses templates rather than an AI service, requires no account, and keeps drafts in the visitor's browser unless they export them.
+
+
+## IndiumVault OS
+
+A local-first personal workspace at `vault-os.html` for task management, projects, notes, goals, and focus sessions. Data is saved in the visitor's browser and can be exported to or restored from a JSON backup. It does not use a server or require an account.
