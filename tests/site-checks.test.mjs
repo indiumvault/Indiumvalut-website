@@ -83,7 +83,7 @@ test("Public pages have SEO metadata and About page is connected", () => {
 test("Creator Studio and IndiumVault OS inline JavaScript parses", () => {
   for (const file of ["creator-studio.html", "vault-os.html"]) {
     const html = read(file);
-    const scripts = [...html.matchAll(/<script(?:\\s[^>]*)?>([\\s\\S]*?)<\\/script>/gi)].map((m) => m[1].trim()).filter(Boolean);
+    const scripts = [...html.matchAll(/<script(?:\s[^>]*)?>([\s\S]*?)<\/script>/gi)].map((m) => m[1].trim()).filter(Boolean);
     assert.ok(scripts.length > 0, file + " needs inline JavaScript");
     for (const script of scripts) new vm.Script(script, { filename: file + "-inline.js" });
   }
@@ -92,7 +92,7 @@ test("Creator Studio and IndiumVault OS inline JavaScript parses", () => {
 test("New product pages have unique IDs and local data controls", () => {
   for (const file of ["creator-studio.html", "vault-os.html"]) {
     const html = read(file);
-    const ids = [...html.matchAll(/\\bid="([^"]+)"/g)].map((m) => m[1]);
+    const ids = [...html.matchAll(/\bid="([^"]+)"/g)].map((m) => m[1]);
     assert.equal(new Set(ids).size, ids.length, file + " contains duplicate IDs");
   }
   const os = read("vault-os.html");
