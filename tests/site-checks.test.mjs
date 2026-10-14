@@ -41,7 +41,7 @@ test("Every sitemap page exists in the repository", () => {
   assert.ok(urls.length > 0, "sitemap contains no URLs");
   for (const url of urls) {
     const path = new URL(url).pathname.split("/").filter(Boolean).at(-1) || "index.html";
-    const file = path === "Indiumvalut-website" ? "index.html" : path;
+    const file = (!path || path === "Indiumvault-website" || path === "Indiumvalut-website") ? "index.html" : path;
     assert.ok(existsSync(join(root, file)), "sitemap entry has no matching file: " + url);
   }
 });
